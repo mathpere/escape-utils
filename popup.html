@@ -17,10 +17,10 @@ function unescapeFromString(str, encoding){ return str; }
 function escapeToString(str, encoding){ return str; }
 
 function copyToClipboard(id) {
-  var input = document.getElementById( id );
-  input.focus();
-  input.select();
-  document.execCommand('Copy');
+  var input = document.getElementById( id );
+  input.focus();
+  input.select();
+  document.execCommand('Copy');
 }
 
 function escapeSingleQuoteAndBackSlash(value){ 
