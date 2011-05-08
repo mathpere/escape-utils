@@ -1,0 +1,9 @@
+{
+  "name": "Escape Utils",
+  "version": "1.0",
+  "description": "Escape/unescape into/from URL, Base64, UTF-16, HTML, Javascript",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  }
+}
